@@ -1,0 +1,3 @@
+# Bonus assignment: Create a "choose your own adventure" Ruby game using the gets ruby method to get user input from the command line. Have the game send the user down many different paths depending on the input that they enter. Use objects to store data about the user and different items they could collect along the way. Seehttp://en.wikipedia.org/wiki/Interactive_fiction (Links to an external site.) for a more in-depth description of "choose your own adventure"-style command line games.
+
+# Note: If you complete assignment 1 only, you are eligible for a 10/10 for homework. The bonus assignment is just a great way to get a ton more Ruby practice!
