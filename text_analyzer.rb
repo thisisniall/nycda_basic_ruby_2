@@ -34,9 +34,9 @@ def text_analyzer (text)
 	for i in 0... text_array.length
 		if word_count_hash.has_key?(text_array[i]) # implicit == true, has_key? returns a boolean
 			word_count_hash[text_array[i]] += 1
-		else word_count_hash[text_array[i]] = 0
+		else word_count_hash[text_array[i]] = 1
 		end
-		most_used_word = word_count_hash.max_by{|k,v| v}
+		most_used_word = word_count_hash.max_by{|k, v| v}
 	end
 	result = {:words => word_count, :spaces => space_count, :vowels => vowel_count, :mostused => most_used_word}
 	puts(result)
